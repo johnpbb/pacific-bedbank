@@ -1,9 +1,14 @@
 import * as React from "react"
 
 const pageStyles = {
+  
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  display: "flex",
+  flexDirection: "column",
+
+  
 }
 const headingStyles = {
   marginTop: 0,
@@ -129,7 +134,7 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Congratulations
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
+        <span style={headingAccentStyles}>— youYEs just made a Gatsby site! 🎉🎉🎉 😎</span>
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
@@ -173,4 +178,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Pacific Bedbank</title>
